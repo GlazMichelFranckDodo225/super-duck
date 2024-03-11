@@ -7,5 +7,10 @@ public class Mandarin extends Duck {
     @Override
     public void display() {
         // Appearance of a Mandarin
+        displayMandarin();
+    }
+
+    private void displayMandarin() {
+        System.out.println("Viewing a Mandarin ...");
     }
 }

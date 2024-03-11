@@ -7,5 +7,10 @@ public class Mallard extends Duck {
     @Override
     public void display() {
         // Appearance of a Mallard
+        displayMallard();
+    }
+
+    private void displayMallard() {
+        System.out.println("Viewing a Mallard ...");
     }
 }
