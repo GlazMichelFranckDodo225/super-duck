@@ -11,6 +11,6 @@ public class Mallard extends Duck {
     }
 
     private void displayMallard() {
-        System.out.println("Viewing a Mallard ...");
+        System.out.println("Viewing the Mallard ...");
     }
 }

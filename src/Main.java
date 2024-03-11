@@ -11,10 +11,12 @@ public class Main {
         mallard.display();
         mallard.swim();
         mallard.quack();
+        mallard.fly();
 
         System.out.println(" ========== Mandarin ========== ");
         mandarin.display();
         mandarin.swim();
         mandarin.quack();
+        mandarin.fly();
     }
 }
