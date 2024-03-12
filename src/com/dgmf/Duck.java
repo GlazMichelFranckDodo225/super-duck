@@ -5,11 +5,11 @@ package com.dgmf;
 // Manages the Implementation Code.
 public abstract class Duck {
     public void quack() {
-        System.out.println("The Duck Quacks ...");
+        System.out.println("Quack ...");
     }
 
     public void swim() {
-        System.out.println("The Duck Swims ...");
+        System.out.println("Swim ...");
     }
 
     // As all Duck Subtypes have a Different Appearance,
@@ -18,7 +18,7 @@ public abstract class Duck {
     
     // Now Duck Is Flying
     public void fly() {
-        System.out.println("The Duck Is Flying");
+        System.out.println("Fly ...");
     }
 
     // Other methods specific to ducks...

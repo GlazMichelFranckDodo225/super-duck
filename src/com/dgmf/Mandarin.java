@@ -11,6 +11,6 @@ public class Mandarin extends Duck {
     }
 
     private void displayMandarin() {
-        System.out.println("Viewing The Mandarin ...");
+        System.out.println("Show The Mandarin ...");
     }
 }
