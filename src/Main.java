@@ -1,3 +1,4 @@
+import com.dgmf.DuckDecoy;
 import com.dgmf.Mallard;
 import com.dgmf.Mandarin;
 import com.dgmf.RubberDuck;
@@ -7,6 +8,7 @@ public class Main {
         Mallard mallard = new Mallard();
         Mandarin mandarin = new Mandarin();
         RubberDuck rubberDuck = new RubberDuck();
+        DuckDecoy duckDecoy = new DuckDecoy();
 
         // Outputs
         System.out.println(" ========== Mallard ========== ");
@@ -26,5 +28,11 @@ public class Main {
         rubberDuck.swim();
         rubberDuck.quack();
         rubberDuck.fly();
+
+        System.out.println(" ========== Duck Decoy ========== ");
+        duckDecoy.display();
+        duckDecoy.swim();
+        duckDecoy.quack();
+        duckDecoy.fly();
     }
 }
