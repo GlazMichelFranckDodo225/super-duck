@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.inheritance;
 
 // Each Duck Subtype is Responsible for Implementing the
 // Behavior of the "display()" Method for How It Will

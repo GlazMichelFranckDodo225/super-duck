@@ -1,9 +1,6 @@
-import com.dgmf.DuckDecoy;
-import com.dgmf.Mallard;
-import com.dgmf.Mandarin;
-import com.dgmf.RubberDuck;
+package com.dgmf.inheritance;
 
-public class Main {
+public class DriverInheritance {
     public static void main(String[] args) {
         Mallard mallard = new Mallard();
         Mandarin mandarin = new Mandarin();

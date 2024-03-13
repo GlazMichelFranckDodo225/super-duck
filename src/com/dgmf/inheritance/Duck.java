@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.inheritance;
 
 // Duck Superclass:
 // All the Ducks Quack and Swim. The Superclass
