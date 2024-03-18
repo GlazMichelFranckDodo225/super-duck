@@ -16,7 +16,7 @@ public class RubberDuck extends Duck {
 
     @Override
     public void quack() {
-        squeal();
+        squeak();
     }
 
     @Override
@@ -25,7 +25,7 @@ public class RubberDuck extends Duck {
         System.out.println("Fly ==> Nothing ...");
     }
 
-    private void squeal() {
-        System.out.println("Squeal ...");
+    private void squeak() {
+        System.out.println("Squeak ...");
     }
 }
